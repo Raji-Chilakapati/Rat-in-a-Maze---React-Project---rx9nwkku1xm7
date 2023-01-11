@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.white {
+    width: 4rem;
+    height: 4rem;
+    background-color: while;
+    border: 0.5px black solid;
+}
+
+.rat {
+    padding: 10px;
+    background-image: url('./chuha2.jpeg');
+    background-size: 60px 45px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.des {
+
+    background-image: url('./cheezi.jpeg');
+    background-size: cover;
+}
+
+.des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.red {
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+    border: 0.5px black solid;
+
+}
+
+.green {
+    width: 4rem;
+    height: 4rem;
+    background-color: green;
+    border: 0.5px black solid;
+}
+
+.container {
+    padding-top: 10px;
+
+}
+
+.solution-container {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.problem-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.problem-setup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+
+}
